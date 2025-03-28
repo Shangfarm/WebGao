@@ -1,0 +1,63 @@
+﻿@model lab04TT.Models.ShoppingCart
+
+@{
+    ViewData["Title"] = "Giỏ hàng";
+}
+
+<div class="container mt-4">
+    <h2 class="text-center fw-bold">🛒 Giỏ hàng của bạn</h2>
+
+    @if (Model.Items.Count == 0)
+    {
+        <div class="alert alert-warning text-center rounded-4 mt-4">
+            <p class="mb-0">Giỏ hàng của bạn đang trống!</p>
+        </div>
+    }
+    else
+    {
+        <div class="card shadow-lg border-0 rounded-4 p-4">
+            <table class="table table-hover align-middle">
+                <thead class="table-light text-center">
+                    <tr>
+                        <th>📦 Sản phẩm</th>
+                        <th>💰 Giá</th>
+                        <th>🔢 Số lượng</th>
+                        <th>💵 Tổng</th>
+                        <th>🛠 Hành động</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.Items)
+                    {
+                        <tr class="text-center">
+                            <td class="fw-bold">@item.Name</td>
+                            <td class="text-success">@item.Price.ToString("N0") đ</td>
+                            <td>
+                                <input type="number" class="form-control text-center rounded-3"
+                                       value="@item.Quantity" min="1" style="width: 70px;">
+                            </td>
+                            <td class="fw-bold">@((item.Price * item.Quantity).ToString("N0")) đ</td>
+                            <td>
+                                <a asp-controller="ShoppingCart" asp-action="RemoveFromCart" asp-route-productId="@item.ProductId"
+                                   class="btn btn-danger btn-sm rounded-pill shadow-sm">
+                                    <i class="bi bi-trash"></i> Xóa
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+
+            <div class="d-flex justify-content-between align-items-center mt-4">
+                <a href="@Url.Action("Index", "Home")" class="btn btn-primary rounded-pill shadow-sm px-4">
+                    <i class="bi bi-arrow-left"></i> Tiếp tục mua sắm
+                </a>
+                <h4 class="fw-bold">Tổng tiền: <span class="text-success">@Model.Items.Sum(i => i.Price * i.Quantity).ToString("N0") đ</span></h4>
+                <a asp-controller="ShoppingCart" asp-action="Checkout"
+                   class="btn btn-success rounded-pill shadow-sm px-4">
+                    <i class="bi bi-cart-check"></i> Thanh toán
+                </a>
+            </div>
+        </div>
+    }
+</div>

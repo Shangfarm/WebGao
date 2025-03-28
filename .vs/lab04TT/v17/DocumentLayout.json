@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\LapTrinhWeb\\lab04TT\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DF5D4B11-E9F5-4E21-9224-B20FB3E546C9}|lab04TT\\lab04TT.csproj|d:\\laptrinhweb\\lab04tt\\lab04tt\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DF5D4B11-E9F5-4E21-9224-B20FB3E546C9}|lab04TT\\lab04TT.csproj|solutionrelative:lab04tt\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF5D4B11-E9F5-4E21-9224-B20FB3E546C9}|lab04TT\\lab04TT.csproj|d:\\laptrinhweb\\lab04tt\\lab04tt\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DF5D4B11-E9F5-4E21-9224-B20FB3E546C9}|lab04TT\\lab04TT.csproj|solutionrelative:lab04tt\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF5D4B11-E9F5-4E21-9224-B20FB3E546C9}|lab04TT\\lab04TT.csproj|d:\\laptrinhweb\\lab04tt\\lab04tt\\views\\shoppingcart\\ordersuccess.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DF5D4B11-E9F5-4E21-9224-B20FB3E546C9}|lab04TT\\lab04TT.csproj|solutionrelative:lab04tt\\views\\shoppingcart\\ordersuccess.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF5D4B11-E9F5-4E21-9224-B20FB3E546C9}|lab04TT\\lab04TT.csproj|d:\\laptrinhweb\\lab04tt\\lab04tt\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DF5D4B11-E9F5-4E21-9224-B20FB3E546C9}|lab04TT\\lab04TT.csproj|solutionrelative:lab04tt\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF5D4B11-E9F5-4E21-9224-B20FB3E546C9}|lab04TT\\lab04TT.csproj|d:\\laptrinhweb\\lab04tt\\lab04tt\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DF5D4B11-E9F5-4E21-9224-B20FB3E546C9}|lab04TT\\lab04TT.csproj|solutionrelative:lab04tt\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF5D4B11-E9F5-4E21-9224-B20FB3E546C9}|lab04TT\\lab04TT.csproj|d:\\laptrinhweb\\lab04tt\\lab04tt\\views\\home\\shoppingcart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DF5D4B11-E9F5-4E21-9224-B20FB3E546C9}|lab04TT\\lab04TT.csproj|solutionrelative:lab04tt\\views\\home\\shoppingcart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 288,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\LapTrinhWeb\\lab04TT\\lab04TT\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "lab04TT\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\LapTrinhWeb\\lab04TT\\lab04TT\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "lab04TT\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-28T09:03:09.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrderSuccess.cshtml",
+              "DocumentMoniker": "D:\\LapTrinhWeb\\lab04TT\\lab04TT\\Views\\ShoppingCart\\OrderSuccess.cshtml",
+              "RelativeDocumentMoniker": "lab04TT\\Views\\ShoppingCart\\OrderSuccess.cshtml",
+              "ToolTip": "D:\\LapTrinhWeb\\lab04TT\\lab04TT\\Views\\ShoppingCart\\OrderSuccess.cshtml",
+              "RelativeToolTip": "lab04TT\\Views\\ShoppingCart\\OrderSuccess.cshtml",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAcwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-28T08:59:57.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\LapTrinhWeb\\lab04TT\\lab04TT\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "lab04TT\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\LapTrinhWeb\\lab04TT\\lab04TT\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "lab04TT\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-28T08:59:47.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\LapTrinhWeb\\lab04TT\\lab04TT\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "lab04TT\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\LapTrinhWeb\\lab04TT\\lab04TT\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "lab04TT\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-28T08:59:45.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\LapTrinhWeb\\lab04TT\\lab04TT\\Views\\Order\\Index.cshtml",
+              "RelativeDocumentMoniker": "lab04TT\\Views\\Order\\Index.cshtml",
+              "ToolTip": "D:\\LapTrinhWeb\\lab04TT\\lab04TT\\Views\\Order\\Index.cshtml",
+              "RelativeToolTip": "lab04TT\\Views\\Order\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-28T08:57:38.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ShoppingCart.cshtml",
+              "DocumentMoniker": "D:\\LapTrinhWeb\\lab04TT\\lab04TT\\Views\\Home\\ShoppingCart.cshtml",
+              "RelativeDocumentMoniker": "lab04TT\\Views\\Home\\ShoppingCart.cshtml",
+              "ToolTip": "D:\\LapTrinhWeb\\lab04TT\\lab04TT\\Views\\Home\\ShoppingCart.cshtml",
+              "RelativeToolTip": "lab04TT\\Views\\Home\\ShoppingCart.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAADkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-28T08:55:52.496Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

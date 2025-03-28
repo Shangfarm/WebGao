@@ -1,0 +1,47 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  
+}
+/* Navbar Styling */
+.navbar {
+    background-color: #343a40 !important;
+}
+
+.navbar-brand, .nav-link {
+    color: white !important;
+}
+
+    .nav-link:hover {
+        text-decoration: underline;
+    }
+
+.dropdown-menu {
+    min-width: 180px;
+}
+
+.dropdown-item:hover {
+    background-color: #f8f9fa;
+}
+
+.user-name {
+    font-weight: bold;
+    color: #ffc107;
+}

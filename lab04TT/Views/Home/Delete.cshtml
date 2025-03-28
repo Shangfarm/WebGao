@@ -1,0 +1,45 @@
+﻿@model lab04TT.Models.Product
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow-lg rounded-4">
+                <div class="card-header bg-danger text-white text-center rounded-top-4">
+                    <h2 class="mb-0 fw-bold"><i class="fas fa-trash-alt me-2"></i>Delete Product</h2>
+                </div>
+                <div class="card-body text-center p-4">
+                    <form asp-action="DeleteConfirmed" method="post">
+                        <input type="hidden" asp-for="Id" />
+                        <p class="fs-5 text-danger fw-bold">
+                            <i class="fas fa-exclamation-triangle me-2"></i>
+                            Are you sure you want to delete "<span class="text-dark">@Model.Name</span>"?
+                        </p>
+                        <div class="d-flex justify-content-center gap-3">
+                            <button type="submit" class="btn btn-danger px-4 rounded-pill shadow-sm">
+                                <i class="fas fa-trash-alt me-1"></i> Delete
+                            </button>
+                            <a href="javascript:history.back()" class="btn btn-secondary px-4 rounded-pill shadow-sm">
+                                <i class="fas fa-times me-1"></i> Cancel
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Font Awesome Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+<style>
+    .card {
+        border-radius: 15px;
+        overflow: hidden;
+    }
+
+    .btn-danger:hover, .btn-secondary:hover {
+        transform: scale(1.05);
+        transition: transform 0.3s ease;
+    }
+</style>

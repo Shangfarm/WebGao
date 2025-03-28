@@ -1,0 +1,57 @@
+﻿@model ShoppingCart
+
+<div class="container mt-4">
+    <h2 class="text-center fw-bold">🛒 Giỏ hàng của bạn</h2>
+
+    @if (Model.Items.Count == 0)
+    {
+        <div class="alert alert-warning text-center rounded-4">
+            <p class="mb-0">Giỏ hàng đang trống. Hãy tiếp tục mua sắm!</p>
+        </div>
+    }
+    else
+    {
+        <div class="card shadow-lg border-0 rounded-4 p-4">
+            <table class="table table-hover align-middle">
+                <thead class="table-light">
+                    <tr class="text-center">
+                        <th class="text-start">📦 Sản phẩm</th>
+                        <th>💰 Giá</th>
+                        <th>🔢 Số lượng</th>
+                        <th>📊 Tổng</th>
+                        <th>🗑️</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.Items)
+                    {
+                        <tr class="text-center">
+                            <td class="text-start fw-bold">@item.Name</td>
+                            <td class="text-success fw-bold">@item.Price.ToString("#,##0") VND</td>
+                            <td>
+                                <input type="number" class="form-control text-center rounded-pill border-0 shadow-sm" style="width: 80px;"
+                                       value="@item.Quantity" min="1">
+                            </td>
+                            <td class="fw-bold">@((item.Price * item.Quantity).ToString("#,##0")) VND</td>
+                            <td>
+                                <a href="@Url.Action("RemoveFromCart", "ShoppingCart", new { productId = item.ProductId })"
+                                   class="btn btn-danger btn-sm rounded-pill shadow-sm" title="Xóa sản phẩm">
+                                    <i class="bi bi-trash"></i>
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+
+        <div class="text-center mt-4">
+            <a href="@Url.Action("Index", "Home")" class="btn btn-primary rounded-pill shadow-sm px-4">
+                <i class="bi bi-arrow-left"></i> Tiếp tục mua sắm
+            </a>
+            <a href="@Url.Action("Checkout", "ShoppingCart")" class="btn btn-success rounded-pill shadow-sm px-4">
+                <i class="bi bi-credit-card"></i> Thanh toán
+            </a>
+        </div>
+    }
+</div>

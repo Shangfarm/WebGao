@@ -1,0 +1,67 @@
+﻿@model IEnumerable<lab04TT.Models.Category>
+
+@{
+    ViewData["Title"] = "Category List";
+}
+
+<div class="container mt-5">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2 class="text-primary fw-bold">Category List</h2>
+        <a asp-action="Add" class="btn btn-success rounded-pill shadow-sm fw-bold">
+            <i class="fas fa-plus-circle me-2"></i> Add New Category
+        </a>
+    </div>
+
+    <div class="table-responsive">
+        <table class="table table-hover table-bordered shadow-sm rounded-3">
+            <thead class="table-success text-center">
+                <tr>
+                    <th class="py-3">ID</th>
+                    <th class="py-3">Name</th>
+                    <th class="py-3">Actions</th>
+                </tr>
+            </thead>
+            <tbody class="text-center">
+                @foreach (var category in Model)
+                {
+                    <tr>
+                        <td class="align-middle">@category.Id</td>
+                        <td class="align-middle">@category.Name</td>
+                        <td class="align-middle">
+                            <a asp-action="Update" asp-route-id="@category.Id" class="btn btn-warning btn-sm rounded-pill shadow-sm">
+                                <i class="fas fa-edit me-1"></i>Edit
+                            </a>
+                            <a asp-action="Delete" asp-route-id="@category.Id" class="btn btn-danger btn-sm rounded-pill shadow-sm">
+                                <i class="fas fa-trash-alt me-1"></i>Delete
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<!-- Font Awesome Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+<style>
+    .table {
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+        .table th {
+            background-color: #28a745 !important;
+            color: white;
+        }
+
+    .table-hover tbody tr:hover {
+        background-color: #f8f9fa;
+        transition: background-color 0.3s ease;
+    }
+
+    .btn-success:hover, .btn-warning:hover, .btn-danger:hover {
+        transform: scale(1.05);
+    }
+</style>

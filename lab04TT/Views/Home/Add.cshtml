@@ -1,0 +1,72 @@
+﻿@model lab04TT.Models.Product
+@using Microsoft.AspNetCore.Mvc.Rendering
+
+@{
+    ViewData["Title"] = "Add Product";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow-lg rounded-4">
+                <div class="card-header bg-primary text-white text-center rounded-top-4">
+                    <h2 class="mb-0 fw-bold"><i class="fas fa-box me-2"></i>Add Product</h2>
+                </div>
+                <div class="card-body p-4">
+                    <form asp-action="Add" method="post" enctype="multipart/form-data">
+                        <div class="mb-3">
+                            <label asp-for="Name" class="form-label fw-bold"><i class="fas fa-tag me-2"></i>Product Name</label>
+                            <input asp-for="Name" class="form-control rounded-3" placeholder="Enter product name" />
+                            <span asp-validation-for="Name" class="text-danger"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label asp-for="Price" class="form-label fw-bold"><i class="fas fa-dollar-sign me-2"></i>Price</label>
+                            <input asp-for="Price" class="form-control rounded-3" placeholder="Enter product price" />
+                            <span asp-validation-for="Price" class="text-danger"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label asp-for="Description" class="form-label fw-bold"><i class="fas fa-file-alt me-2"></i>Description</label>
+                            <textarea asp-for="Description" class="form-control rounded-3" rows="3" placeholder="Enter product description"></textarea>
+                            <span asp-validation-for="Description" class="text-danger"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label asp-for="CategoryId" class="form-label fw-bold"><i class="fas fa-list me-2"></i>Category</label>
+                            <select asp-for="CategoryId" asp-items="ViewBag.Categories" class="form-select rounded-3"></select>
+                        </div>
+                        <div class="mb-3">
+                            <label asp-for="ImageUrl" class="form-label fw-bold"><i class="fas fa-image me-2"></i>Product Image</label>
+                            <input type="file" asp-for="ImageUrl" class="form-control rounded-3" />
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary px-4 rounded-pill shadow-sm">
+                                <i class="fas fa-plus me-1"></i> Add Product
+                            </button>
+                            <a asp-action="Index" class="btn btn-secondary px-4 rounded-pill shadow-sm">
+                                <i class="fas fa-arrow-left me-1"></i> Cancel
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Font Awesome Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+<style>
+    .card {
+        border-radius: 15px;
+        overflow: hidden;
+    }
+
+    .form-control, .form-select {
+        border-radius: 10px;
+    }
+
+    .btn-primary:hover, .btn-secondary:hover {
+        transform: scale(1.05);
+        transition: transform 0.3s ease;
+    }
+</style>

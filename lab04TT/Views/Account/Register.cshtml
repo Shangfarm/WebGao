@@ -1,0 +1,90 @@
+﻿@{
+    ViewData["Title"] = "Register";
+}
+@model RegisterViewModel
+
+<h2 class="text-center">Register</h2>
+
+<form method="post" class="p-4 shadow rounded bg-light" style="max-width: 450px; margin: auto;">
+    @* Hiển thị lỗi chung *@
+    <div asp-validation-summary="All" class="text-danger mb-3"></div>
+
+    <div class="form-group position-relative mt-3">
+        <label asp-for="Email" class="mb-2">Email</label>
+        <div class="input-group">
+            <div class="input-group-prepend">
+                <span class="input-group-text" style="padding-right: 15px;"><i class="fas fa-envelope"></i></span>
+            </div>
+            <input asp-for="Email" class="form-control" placeholder="Nhập email của bạn" />
+        </div>
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+
+    <div class="form-group position-relative mt-3">
+        <label asp-for="Password" class="mb-2">Password</label>
+        <div class="input-group">
+            <div class="input-group-prepend">
+                <span class="input-group-text" style="padding-right: 15px;"><i class="fas fa-lock"></i></span>
+            </div>
+            <input asp-for="Password" type="password" class="form-control" placeholder="Nhập mật khẩu" />
+        </div>
+        <span asp-validation-for="Password" class="text-danger"></span>
+    </div>
+
+    <div class="form-group position-relative mt-3">
+        <label asp-for="FullName" class="mb-2">Họ và Tên</label>
+        <div class="input-group">
+            <div class="input-group-prepend">
+                <span class="input-group-text" style="padding-right: 15px;"><i class="fas fa-user"></i></span>
+            </div>
+            <input asp-for="FullName" class="form-control" placeholder="Nhập họ và tên" />
+        </div>
+        <span asp-validation-for="FullName" class="text-danger"></span>
+    </div>
+
+    <div class="form-group position-relative mt-3">
+        <label asp-for="Address" class="mb-2">Địa chỉ</label>
+        <div class="input-group">
+            <div class="input-group-prepend">
+                <span class="input-group-text" style="padding-right: 15px;"><i class="fas fa-map-marker-alt"></i></span>
+            </div>
+            <input asp-for="Address" class="form-control" placeholder="Nhập địa chỉ" />
+        </div>
+        <span asp-validation-for="Address" class="text-danger"></span>
+    </div>
+
+    <div class="form-group position-relative mt-3">
+        <label asp-for="Age" class="mb-2">Tuổi</label>
+        <div class="input-group">
+            <div class="input-group-prepend">
+                <span class="input-group-text" style="padding-right: 15px;"><i class="fas fa-birthday-cake"></i></span>
+            </div>
+            <input asp-for="Age" class="form-control" placeholder="Nhập tuổi" />
+        </div>
+        <span asp-validation-for="Age" class="text-danger"></span>
+    </div>
+
+    <div class="text-center mt-4">
+        <button type="submit" class="btn btn-primary mx-2">Register</button>
+        <button type="button" class="btn btn-secondary mx-2" onclick="window.location.href='/'">Thoát</button>
+    </div>
+</form>
+
+<!-- Thêm Font Awesome nếu chưa có -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+<!-- Hiệu ứng cho input -->
+<style>
+    .form-control:focus {
+        border-color: #007bff;
+        box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+    }
+
+    .btn-primary, .btn-secondary {
+        transition: transform 0.2s ease-in-out;
+    }
+
+        .btn-primary:hover, .btn-secondary:hover {
+            transform: scale(1.05);
+        }
+</style>
