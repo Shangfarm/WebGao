@@ -11,7 +11,250 @@
     var isAdmin = user != null && await UserManager.IsInRoleAsync(user, "Admin");
 }
 
+
+
+
+
+<section class="banner">
+    <div class="container-fluid">
+        <div class="d-flex align-items-center justify-content-end">
+            <div class="banner-left col-md-5 col-sm-12 col-lg-5">
+                <div class="banner-left-content">
+                    <h2 class="farm-text">Farm</h2>
+                    <div class="ban-content">
+                        <h3 class="mb-sm-4 mb-2">
+                            Welcome to Farmstead
+                            <br />
+                            where Natural Food is born!
+                        </h3>
+                        <p class="banner-text">
+                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                            accusantium doloremque laudantium.
+                        </p>
+                        <a class="btn btn-learnmore btn-style mt-sm-5 mt-4" href="about">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Chia bố cục 7/12 trên màn hình lớn -->
+            <div class="col-md-7 col-lg-7 col banner-right p-0 ml-auto">
+                <!-- Banner Slider -->
+                <div id="homepage-slider"
+                     class="carousel slide position-relative"
+                     data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <!-- Slide 1 -->
+                        <div class="carousel-item active">
+                            <div class="banner-1 d-flex images">
+                                <style>
+                                    .banner-1 {
+                                        background-image: url(https://wp.w3layouts.com/farmstead/wp-content/themes/farmstead/assets/images/b1.jpg);
+                                    }
+                                </style>
+                                <div class="wrapper text-white">
+                                    <div class="slider-num d-grid">
+                                        <h4>01<span>/03</span></h4>
+                                        <p>Agriculture</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Slide 2 -->
+                        <div class="carousel-item">
+                            <div class="banner-2 d-flex images">
+                                <style>
+                                    .banner-2 {
+                                        background-image: url(https://wp.w3layouts.com/farmstead/wp-content/themes/farmstead/assets/images/b8.jpg);
+                                    }
+                                </style>
+                                <div class="wrapper text-white">
+                                    <div class="slider-num d-grid">
+                                        <h4>02<span>/03</span></h4>
+                                        <p>Farm Field</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Slide 3 -->
+                        <div class="carousel-item">
+                            <div class="banner-3 d-flex images">
+                                <style>
+                                    .banner-3 {
+                                        background-image: url(https://wp.w3layouts.com/farmstead/wp-content/themes/farmstead/assets/images/b4.jpg);
+                                    }
+                                </style>
+                                <div class="wrapper text-white">
+                                    <div class="slider-num d-grid">
+                                        <h4>03<span>/03</span></h4>
+                                        <p>Organic Farm</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Carousel Indicators -->
+                    <div class="carousel-indicators">
+                        <button type="button"
+                                data-bs-target="#homepage-slider"
+                                data-bs-slide-to="0"
+                                class="active"></button>
+                        <button type="button"
+                                data-bs-target="#homepage-slider"
+                                data-bs-slide-to="1"></button>
+                        <button type="button"
+                                data-bs-target="#homepage-slider"
+                                data-bs-slide-to="2"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="features py-5">
+    <div class="container py-md-5 py-4 HomePage">
+        <div class="row main-cont-wthree-2 align-items-center">
+            <div class="col-lg-6 col-12 feature-grid-left pr-lg-5 d-flex flex-column">
+                <h5 class="small-title">Đảm Bảo Phát Tự Nhiên</h5>
+                <h2 class="title-style mb-md-3 mb-2">Đi đầu trong lĩnh vực xuất khẩu gạo</h2>
+                <p>
+                    Chúng tôi cam kết đưa ra được sản phẩm với chất lượng cao. Đi đôi với chất lượng về sản phẩm thì FamRice chúng tôi cũng sẽ cung cấp các dịch vụ vô cùng tốt như giao hàng tận nơi , cung cấp giấy tờ chứng từ của sản phẩm, nguồn gạo sạch và nhiều hơn thế nữa
+                </p>
+            </div>
+            <div class="col-lg-6 feature-grid-right mt-lg-0 mt-5">
+                <div class="call-grids d-grid">
+                    <div class="grid1">
+                        <div class="icon">
+                            <img src="https://wp.w3layouts.com/farmstead/wp-content/themes/farmstead/assets/images/img4.png"
+                                 alt
+                                 class="img-fluid" />
+                        </div>
+                        <h4>
+                            <a href="about" class="title-head"> Sản Phẩm Xanh  </a>
+                        </h4>
+                    </div>
+                    <div class="grid1">
+                        <div class="icon">
+                            <img src="https://wp.w3layouts.com/farmstead/wp-content/themes/farmstead/assets/images/img2.png"
+                                 alt
+                                 class="img-fluid" />
+                        </div>
+                        <h4>
+                            <a href="about" class="title-head"> Lúa Mì Sạch  </a>
+                        </h4>
+                    </div>
+                    <div class="grid1">
+                        <div class="icon">
+                            <img src="https://wp.w3layouts.com/farmstead/wp-content/themes/farmstead/assets/images/img1.png"
+                                 alt
+                                 class="img-fluid" />
+                        </div>
+                        <h4>
+                            <a href="about" class="title-head"> Vận Chuyển Tận Nơi   </a>
+                        </h4>
+                    </div>
+                    <div class="grid1">
+                        <div class="icon">
+                            <img src="https://wp.w3layouts.com/farmstead/wp-content/themes/farmstead/assets/images/img3.png"
+                                 alt
+                                 class="img-fluid" />
+                        </div>
+                        <h4>
+                            <a href="about" class="title-head"> Sản Phẩm CHất Lượng </a>
+                        </h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="service-section py-5">
+        <div class="container py-md-5 py-4 HomePageImageServices">
+            <div class="title-style-main position-relative mb-sm-5 mb-4 pb-xl-4">
+                <div class="row align-items-center align-items-center">
+                    <div class="col-md-6 section-heading">
+                        <h5 class="small-title mb-md-2 text-white">what we do</h5>
+                        <h3 class="title-style text-white">
+                            Tại sao bạn nên  chọn thực phẩm hữu cơ tươi của chúng tôi
+                        </h3>
+                    </div>
+                    <div class="col-md-6 section-heading mt-md-0 mt-2">
+                        <p class="lead text-white">
+                            Những sản phẩm của chúng tôi được chăm sóc và trồng trên những cánh đồng của chúng tôi, chúng tôi cam kết sẽ mang đến cho bạn những sản phẩm tốt nhất
+                        </p>
+                    </div>
+                </div>
+                <h4 class="title-bg-content">Services</h4>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-6 item">
+                    <div class="card">
+                        <div class="card-header p-0 position-relative border-0">
+                            <a href="services">
+                                <img class="d-block img-responsive"
+                                     src="https://wp.w3layouts.com/farmstead/wp-content/themes/farmstead/assets/images/service1.jpg"
+                                     alt="card-image" />
+                            </a>
+                        </div>
+                        <div class="card-body service-details">
+                            <span class="label-style">Tự Nhiên</span>
+                            <a href="services" class="service-heading">Sản Phẩm Nông Nghiệp</a>
+                            <p>
+                                Chúng tôi sẽ khảo sát dựa trên thị trường và thông qua quy trình sản xuất nghiêm ngặt của chúng tôi để có thể đưa ra sản phẩm tốt nhất
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-md-0 mt-4">
+                    <div class="card">
+                        <div class="card-header p-0 position-relative border-0">
+                            <a href="services">
+                                <img class="d-block img-responsive"
+                                     src="https://wp.w3layouts.com/farmstead/wp-content/themes/farmstead/assets/images/service2.jpg"
+                                     alt="card-image" />
+                            </a>
+                        </div>
+                        <div class="card-body service-details">
+                            <span class="label-style">Nông Nghiệp</span>
+                            <a href="services" class="service-heading"> Rau Tươi </a>
+                            <p>
+                               Ngoài ra chúng tôi còn có chuỗi nông trại rau sạch để có thể mở rộng thị trường và đồng phân phối các sản phẩm sạch và rẻ 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-lg-0 mt-4">
+                    <div class="card">
+                        <div class="card-header p-0 position-relative border-0">
+                            <a href="services">
+                                <img class="d-block img-responsive"
+                                     src="https://wp.w3layouts.com/farmstead/wp-content/themes/farmstead/assets/images/service3.jpg"
+                                     alt="card-image" />
+                            </a>
+                        </div>
+                        <div class="card-body service-details">
+                            <span class="label-style">Farm</span>
+                            <a href="services" class="service-heading">Sản phẩm hữu cơ</a>
+                            <p>
+                                Chung quy , từ hạt gạo chất lượng cao của chúng tôi, sau đó cũng quy trình đó , chúng tôi sẽ tạo nên 1 loạt các sản phẩm nông nghiệp chất lượng 
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <div class="container mt-5">
+    
+    
+    
     <h2 class="text-center mb-4 fw-bold">📦 Danh sách sản phẩm</h2>
 
     <div class="row">
@@ -73,11 +316,9 @@
 
 <!-- Bootstrap Icons -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
-
+<!--
 <style>
-    body {
-        background-color: #FCE5CD; /* Màu da người */
-    }
+    
     .card {
         border-radius: 15px;
         transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -93,3 +334,4 @@
         transition: transform 0.3s ease;
     }
 </style>
+-->

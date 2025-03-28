@@ -1,0 +1,121 @@
+﻿
+.navbar-container {
+    background: #f8f9fa; /* Màu nền sáng */
+    border: 1px solid #ddd; /* Viền nhẹ */
+    padding: 10px 15px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cart-btn, .nav-link {
+    text-decoration: none;
+    font-weight: 500;
+    color: #333;
+    padding: 5px 10px;
+    transition: all 0.3s;
+}
+
+    .cart-btn:hover, .nav-link:hover {
+        color: #007bff;
+    }
+
+.cart-badge {
+    background: red;
+    color: white;
+    border-radius: 50%;
+    padding: 3px 7px;
+    font-size: 12px;
+    position: relative;
+    top: -10px;
+    left: -5px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    background: #007bff;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: white;
+    min-width: 160px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    z-index: 1000;
+}
+
+    .dropdown-content a {
+        color: #333;
+        padding: 10px;
+        display: block;
+        text-decoration: none;
+    }
+
+        .dropdown-content a:hover {
+            background: #f1f1f1;
+        }
+
+#dropdown-toggle:checked + .dropbtn + .dropdown-content {
+    display: block;
+}
+
+.auth-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px; /* Khoảng cách giữa icon và chữ */
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Đăng nhập */
+.btn-login {
+    background: #ffc107;
+    color: #333!important;
+    border: 2px solid #e0a800;
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+    .btn-login:hover {
+        background: #e0a800;
+        color: white;
+        transform: translateY(-2px);
+    }
+
+/* Đăng ký */
+.btn-register {
+    background: #28a745;
+    color: white!important;
+    border: 2px solid #218838;
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+    .btn-register:hover {
+        background: #218838;
+        transform: translateY(-2px);
+    }
+
+/* Icon hiển thị đẹp hơn */
+.auth-btn i {
+    font-size: 18px;
+}

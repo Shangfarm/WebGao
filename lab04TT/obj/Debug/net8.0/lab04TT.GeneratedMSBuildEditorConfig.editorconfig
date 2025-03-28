@@ -17,109 +17,107 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = lab04TT
 build_property.RootNamespace = lab04TT
-build_property.ProjectDir = D:\LapTrinhWeb\lab04TT\lab04TT\
+build_property.ProjectDir = C:\Users\hisis\OneDrive\Máy tính\WebGao\lab04TT\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\LapTrinhWeb\lab04TT\lab04TT
+build_property.MSBuildProjectDirectory = C:\Users\hisis\OneDrive\Máy tính\WebGao\lab04TT
 build_property._RazorSourceGeneratorDebug = 
-build_property.EffectiveAnalysisLevelStyle = 8.0
-build_property.EnableCodeStyleSeverity = 
 
-[D:/LapTrinhWeb/lab04TT/lab04TT/Views/Account/AccessDenied.cshtml]
+[C:/Users/hisis/OneDrive/Máy tính/WebGao/lab04TT/Views/Account/AccessDenied.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/LapTrinhWeb/lab04TT/lab04TT/Views/Account/Login.cshtml]
+[C:/Users/hisis/OneDrive/Máy tính/WebGao/lab04TT/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/LapTrinhWeb/lab04TT/lab04TT/Views/Account/Register.cshtml]
+[C:/Users/hisis/OneDrive/Máy tính/WebGao/lab04TT/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/LapTrinhWeb/lab04TT/lab04TT/Views/Categories/Add.cshtml]
+[C:/Users/hisis/OneDrive/Máy tính/WebGao/lab04TT/Views/Categories/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xBZGQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/LapTrinhWeb/lab04TT/lab04TT/Views/Categories/Delete.cshtml]
+[C:/Users/hisis/OneDrive/Máy tính/WebGao/lab04TT/Views/Categories/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/LapTrinhWeb/lab04TT/lab04TT/Views/Categories/Display.cshtml]
+[C:/Users/hisis/OneDrive/Máy tính/WebGao/lab04TT/Views/Categories/Display.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xEaXNwbGF5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/LapTrinhWeb/lab04TT/lab04TT/Views/Categories/Index.cshtml]
+[C:/Users/hisis/OneDrive/Máy tính/WebGao/lab04TT/Views/Categories/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/LapTrinhWeb/lab04TT/lab04TT/Views/Categories/Update.cshtml]
+[C:/Users/hisis/OneDrive/Máy tính/WebGao/lab04TT/Views/Categories/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/LapTrinhWeb/lab04TT/lab04TT/Views/Home/Add.cshtml]
+[C:/Users/hisis/OneDrive/Máy tính/WebGao/lab04TT/Views/Home/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZGQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/LapTrinhWeb/lab04TT/lab04TT/Views/Home/Delete.cshtml]
+[C:/Users/hisis/OneDrive/Máy tính/WebGao/lab04TT/Views/Home/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/LapTrinhWeb/lab04TT/lab04TT/Views/Home/Display.cshtml]
+[C:/Users/hisis/OneDrive/Máy tính/WebGao/lab04TT/Views/Home/Display.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEaXNwbGF5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/LapTrinhWeb/lab04TT/lab04TT/Views/Home/Index.cshtml]
+[C:/Users/hisis/OneDrive/Máy tính/WebGao/lab04TT/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/LapTrinhWeb/lab04TT/lab04TT/Views/Home/Privacy.cshtml]
+[C:/Users/hisis/OneDrive/Máy tính/WebGao/lab04TT/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/LapTrinhWeb/lab04TT/lab04TT/Views/Home/ShoppingCart.cshtml]
+[C:/Users/hisis/OneDrive/Máy tính/WebGao/lab04TT/Views/Home/ShoppingCart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaG9wcGluZ0NhcnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/LapTrinhWeb/lab04TT/lab04TT/Views/Home/Update.cshtml]
+[C:/Users/hisis/OneDrive/Máy tính/WebGao/lab04TT/Views/Home/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/LapTrinhWeb/lab04TT/lab04TT/Views/Order/Index.cshtml]
+[C:/Users/hisis/OneDrive/Máy tính/WebGao/lab04TT/Views/Order/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/LapTrinhWeb/lab04TT/lab04TT/Views/Shared/Error.cshtml]
+[C:/Users/hisis/OneDrive/Máy tính/WebGao/lab04TT/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/LapTrinhWeb/lab04TT/lab04TT/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/hisis/OneDrive/Máy tính/WebGao/lab04TT/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/LapTrinhWeb/lab04TT/lab04TT/Views/ShoppingCart/AddToCart.cshtml]
+[C:/Users/hisis/OneDrive/Máy tính/WebGao/lab04TT/Views/ShoppingCart/AddToCart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcHBpbmdDYXJ0XEFkZFRvQ2FydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/LapTrinhWeb/lab04TT/lab04TT/Views/ShoppingCart/Index.cshtml]
+[C:/Users/hisis/OneDrive/Máy tính/WebGao/lab04TT/Views/ShoppingCart/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcHBpbmdDYXJ0XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/LapTrinhWeb/lab04TT/lab04TT/Views/ShoppingCart/OrderSuccess.cshtml]
+[C:/Users/hisis/OneDrive/Máy tính/WebGao/lab04TT/Views/ShoppingCart/OrderSuccess.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcHBpbmdDYXJ0XE9yZGVyU3VjY2Vzcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/LapTrinhWeb/lab04TT/lab04TT/Views/_ViewImports.cshtml]
+[C:/Users/hisis/OneDrive/Máy tính/WebGao/lab04TT/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/LapTrinhWeb/lab04TT/lab04TT/Views/_ViewStart.cshtml]
+[C:/Users/hisis/OneDrive/Máy tính/WebGao/lab04TT/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/LapTrinhWeb/lab04TT/lab04TT/Views/Shared/_Layout.cshtml]
+[C:/Users/hisis/OneDrive/Máy tính/WebGao/lab04TT/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-l8r0fujlq7
